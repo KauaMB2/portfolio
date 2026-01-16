@@ -1,0 +1,236 @@
+{
+  "common": {
+    "welcome": "WELCOME TO MY PORTFOLIO",
+    "curriculum": "RESUME"
+  },
+  "banner": {
+    "title": "Hi, my name is Kauã. I have experience in",
+    "rotating": [
+      "Computer Vision.",
+      "Fullstack Development.",
+      "AI, Chatbots, and LLMs."
+    ],
+    "bio": "I am 21 years old, have been programming since I was 14, and am currently studying Software Engineering at Inatel. I am deeply passionate about technology, innovation, and challenges. I have professional experience working with TypeScript, Express, Next, React, Tailwind, ShadCN, Vitest, Python, Flask, OpenCV, Docker, YOLO, Electron, and other tools.",
+    "callToAction": "If you're looking for someone committed, creative, and focused on delivering high-quality results, I’m ready to collaborate on your projects. Let’s build something amazing together! Feel free to contact me through my communication channels. See you soon!",
+    "videoUrl": "https://www.youtube.com/embed/lFD4XdzbYlA",
+    "resume": "https://www.canva.com/design/DAFXM0qkZG8/76ZM0i_LuulglBzpQg4T4Q/view"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "In addition to developing desktop applications and projects related to computer vision, LLMs, chatbots, and AI, I’m a Fullstack developer!\nThis means you can count on me to build both the frontend and backend of your application—and even deploy it."
+  },
+  "projects": {
+    "title": "Projects",
+    "categories": {
+      "web_development": "Web Development",
+      "computer_vision": "Computer Vision",
+      "mobile": "Mobile",
+      "eletronic": "Electronics",
+      "GUI": "Desktop Applications"
+    },
+    "tab": "Tab",
+    "commingSoon": "Comming soon",
+    "web_development": {
+      "Judite": {
+        "title": "Judite",
+        "description": "Frontend & Backend",
+        "explanation": "Judite is a web platform created to automate business customer service, integrating WhatsApp, Messenger, Instagram Direct and Webchat through Meta's official API. The system offers automatic responses, scheduled messages, a dashboard with metrics, contact management and complete configuration of AI agents, including personality, tools and operating parameters. The platform also supports dynamic context extracted from videos, websites, PDFs, Word documents or free text, in addition to integrations with external services such as Correios, Google Sheets, Freshdesk, Brasil API and Asaas. The agent also uses a vector database, allowing more contextualized, accurate responses aligned with the company's products and services. With modular architecture and DevOps practices, Judite is a scalable, efficient and easy to maintain solution."
+      },
+      "Studybuddy": {
+        "title": "Studybuddy",
+        "description": "Frontend & Design"
+      },
+      "Açaí Delivery": {
+        "title": "Açaí Delivery",
+        "description": "Frontend & Delivery"
+      },
+      "Infrareport": {
+        "title": "Infrareport",
+        "description": "Frontend & Google Maps"
+      },
+      "iPhone 15 Pro": {
+        "title": "iPhone 15 Pro",
+        "description": "Frontend & 3D"
+      },
+      "Table manager": {
+        "title": "Table manager",
+        "description": "Frontend & Business"
+      },
+      "Save the planet": {
+        "title": "Save the planet",
+        "description": "Game & Entertainment"
+      },
+      "PONG": {
+        "title": "PONG",
+        "description": "Game & Entertainment"
+      },
+      "Team allocation": {
+        "title": "Team allocation",
+        "description": "Frontend & Business"
+      },
+      "Github search": {
+        "title": "Github search",
+        "description": "Frontend & API"
+      },
+      "Jogo da forca": {
+        "title": "Hangman",
+        "description": "Game & Entertainment"
+      },
+      "Studybuddy API": {
+        "title": "Studybuddy API",
+        "description": "Backend & REST API"
+      },
+      "Jogo da velha": {
+        "title": "Tic-tac-toe",
+        "description": "Game & Entertainment"
+      },
+      "Infrareport API": {
+        "title": "Infrareport API",
+        "description": "Backend & REST API"
+      }
+    },
+    "computer_vision": {
+      "Reconhecimento facial - HOG": {
+        "title": "Facial Recognition – HOG",
+        "description": "A.I. & HOG",
+        "explanation": "This project is a graphical interface developed that allows facial recognition using the Histogram of Oriented Gradients (HOG) method and it basically consists of an already trained neural network that needs only ONE photo of any face and, after reading the face, it defines 128 points (landmarks) responsible for defining that face and, after that, just open the webcam or select a new photo with that face and the A.I. will recognize it! It was developed using Python, Tkinter, OpenCV and the \"face_recognition\" library."
+      },
+      "Detector RTSP": {
+        "title": "RTSP Detector",
+        "description": "Classification and Detection",
+        "explanation": "The RTSP Detector is software that transforms any security camera into an alarm center via RTSP protocol; it uses a real-time classifier that identifies images as \"Fire\", \"With person\" or \"Without person\"; if the classifier determines that some frame contains a person, a second model, this time a detector, is called to confirm the person's presence; if the presence is confirmed, a third detector is activated to identify if that person is carrying a firearm or a knife; in addition, the software has a fire detection and classification system; if any event is detected, a message is automatically sent to the user's WhatsApp with the exact image of the frame where the event occurred; all models were trained by me, and all the interface and backend were developed with HTML, CSS, JavaScript, Electron and Python."
+      },
+      "Paint visual": {
+        "title": "Visual paint",
+        "description": "A.I. & Design",
+        "explanation": "This project is nothing more than a simulated and reduced version of the Paint software, but controlled by hands. The software detects signals made with the hand and allows drawing in green, blue and red and, in addition, allows erasing what has already been drawn! If you raise your index finger with your middle finger, the software will understand that you are selecting one of the three possible colors, therefore, you are in selection mode and, if you raise only your index finger, the software will understand that you are drawing on the screen. The application was developed using Python, OpenCV and Mediapipe."
+      },
+      "Move Vision": {
+        "title": "Move Vision",
+        "description": "A.I. & Entertainment",
+        "explanation": "Move Vision is a body movement game. Basically, you access the game by registering with a username and password and, after clicking the \"Play\" button, the game opens your camera and divides it into a 3x3 matrix where each cell represents a possible position. After that, an image is displayed and two points representing the position you should be in and the player must, in less than a second, adapt to the position shown in the image. The images are changed every second and, as long as the player can adapt to the sequence of movements and positions, they earn points, but, if they miss a position, the player loses."
+      },
+      "CEPEG": {
+        "title": "CEPEG",
+        "description": "A.I. & Electronics",
+        "explanation": "CEPEG was a project developed trying to help any type of company that uses PPE in its work environment. The project is divided into three stages: <br/>1st Stage - Cognitive test;<br/>2nd Stage - Employee recognition;<br/>3rd Stage - PPE recognition.<br/>In the 1st stage, the employee goes through a cognitive test, developed in Python (Pygame), that will test the employee's cognition, to verify if they are fit or not to perform risky work.<br/>In the 2nd stage, when the employee goes to clock in, they choose one of the 3 forms of recognition: Facial recognition, biometrics or RFID reader. Employee recognition must be done to verify whether the employee works or not in this sector and to register their entry.<br/>In the 3rd and final stage, the employee must position themselves in front of a camera that will be connected to the computer and that, through Artificial Intelligence (Machine Learning), will verify whether the employee is or is not using PPE. The verification time takes around 8 seconds.<br/>If the employee is using PPE correctly, a turnstile releases the employee's access to the work sector, but, if the employee is not using it, a message is automatically sent to their boss's WhatsApp, warning about the misuse of PPE.<br/>The project also includes a website and a GUI (Graphical Interface) to register employees and company sectors. In addition, the GUI and the Website also display graphs, tables, reports and images that confirm whether the employee was or was not using PPE. All website information is stored on Firebase and GUI information on MySQL.<br/>CEPEG was the best project in the Utilities category at the 2022 project fair at the Francisco Moreira da Costa Technical School of Electronics and won an award from the City Hall.<br/>Technologies used in creating the project: Electronics, HTML, CSS, JavaScript, Bootstrap, Python, NodeJS, SQL, C++, OpenCV, Machine Learning, Firebase and MySQL."
+      },
+      "Identificador de sinais": {
+        "title": "Signal identifier",
+        "description": "A.I. & Detection",
+        "explanation": "This project uses computer vision to identify signals made with the hand, allowing the computer to identify the numbers 1, 2, 3, 4 and 5 when signaled. The application was developed using Python, OpenCV and Mediapipe."
+      },
+      "Face car": {
+        "title": "Face car",
+        "description": "A.I. & Detection",
+        "explanation": "Facecar was a project developed by the TN1101 team for presentation at the project fair at the Francisco Moreira da Costa Technical School of Electronics, in which I acted by guiding the team on the use of technologies during development. Facecar consists of a camera installed inside a car that, through the HOG (Histogram of Oriented Gradients) method, recognizes the owner's face and detects unknown faces. If any unknown face remains for 10 seconds inside the car, the software will understand that it is a theft, so it will send binary information via USB to an Arduino, which will activate a relay to lock the vehicle, thus preventing theft. In summary, Facecar is a project that, through computer vision and artificial intelligence, prevents a thief from stealing your car."
+      },
+      "Mouse visual": {
+        "title": "Visual mouse",
+        "description": "A.I. & Detection",
+        "explanation": "This project uses computer vision to identify signals made with the hand and, through these signals, control the mouse cursor and even click. Many times in science fiction movies we saw people interacting with computer screens using their own hands. Therefore, the idea of this project is to bring us a little closer to this reality. If you raise only your index finger, the software will understand that you want to move the mouse cursor and, if you raise your index finger and middle finger together, the software will understand that you want to click on the screen. The application was developed using Python, OpenCV, Mediapipe and other technologies."
+      },
+      "Controlador de volume visual": {
+        "title": "Visual volume controller",
+        "description": "A.I. & Detection",
+        "explanation": "This project uses computer vision to identify signals made with the hand and, through these signals, control the computer's volume. The software measures the distance between the index finger and the thumb and uses this distance to control the volume. The application was developed using Python, OpenCV, Mediapipe and other technologies."
+      },
+      "Matriz de homografia": {
+        "title": "Homography matrix",
+        "description": "Prediction & Coordinates",
+        "explanation": "The project consists of a GUI developed using Python and tkinter that facilitates the use of the mathematical model of Homography Matrix and RANSAC (RANdom SAmple Consensus) from OpenCV through its intuitive visual allowing to estimate scales such as latitude and longitude through some information inputs such as X and Y.<br/> The homography matrix is nothing more than a 3x3 matrix that, when multiplied by an array that contains the initial positions in a specific scale (X and Y), returns an estimate of the value in another scale (latitude and longitude). In addition, the project includes the RANSAC algorithm...<br/>RANSAC is a robust technique for dealing with noisy data, allowing to find accurate models even in the presence of outliers (discrepant values) through the iteration of several subsets, choosing the homography matrix that can estimate the largest set of points possible!!"
+      },
+      "AutoML": {
+        "title": "AutoML",
+        "description": "A.I. & Prediction",
+        "explanation": "This project consists of an intuitive graphical interface that uses AutoML with PyCaret to train the best possible model for predicting spatial positions, such as latitude and longitude through an input such as x and y. This tool makes the data analysis process more accessible and efficient, facilitating decision-making in location projects!<br/>AutoML automates the process of model selection and hyperparameter optimization, ensuring that the best approaches are used, even for those who are not Machine Learning experts."
+      },
+      "SAHI & YoloV8": {
+        "title": "SAHI & YoloV8",
+        "description": "A.I. & Detection",
+        "explanation": "Detecting small objects in surveillance applications or any other computer vision system represents a significant challenge. Small and distant objects are often represented by a minimum number of pixels in an image and, therefore, lack the details necessary for high detection accuracy using conventional detectors.<br/>Slicing Aided Hyper Inference (SAHI) is an open source framework that was designed to solve this problem.<br/>SAHI's main innovation is its slicing method, which divides large images into smaller sections and applies some object detection model on each of these slices separately, allowing more accurate and specific processing for each piece of the image."
+      },
+      "Interface YoloV8": {
+        "title": "YoloV8 Interface",
+        "description": "A.I. & Detection",
+        "explanation": "YOLOv8 is a framework for object identification. By default, Yolo identifies up to 80 different objects, but you can train the neural network so that Yolo identifies other objects if necessary. The point is: To use Yolo, long lines of code are needed to pass all the parameters to the framework and the graphical interface comes to solve exactly this. To select or deselect an object that Yolo should or should not identify, just click on the Checkbox corresponding to the object and it will be included in the list of objects to be identified."
+      },
+      "Reconhecimento facial": {
+        "title": "Facial recognition",
+        "description": "A.I. & Recognition",
+        "explanation": "This project is a graphical interface developed that allows facial recognition in photos and via webcam in addition to registering new faces and training artificial intelligence to identify new faces. The application was developed using Python, OpenCV, Haarcascade and Tkinter."
+      },
+      "I.A. Personal trainer": {
+        "title": "A.I. Personal trainer",
+        "description": "A.I. & Detection",
+        "explanation": "This project is an automatic personal trainer. Using artificial intelligence, it is possible to calculate the angle created by your arm during the execution of the biceps curl with dumbbell and, using this angle, it is possible to know if the user is doing the exercise correctly and how many times they performed it. The application was developed using Python, OpenCV and Mediapipe."
+      },
+      "Velocímetro": {
+        "title": "Speedometer",
+        "description": "A.I. & Detection",
+        "explanation": "Throughout Brazil, speed monitoring on highways becomes important to ensure that cars are not exceeding the speed limit. It was thinking about this that, through a simple camera connected to the computer, I created an algorithm that allows monitoring the X and Y position and the speed of an automobile on any road, using the homography matrix algorithm!"
+      }
+    },
+    "mobile": {
+      "Infrareport Mobile": {
+        "title": "Infrareport Mobile",
+        "description": "Mobile & Google Maps",
+        "explanation": "By chance, have you ever found any infrastructure problem in your city while walking on the street? Probably, every day. With the difficulty that citizens face in reporting such problems, it becomes difficult for the city hall to locate urban problems. It was thinking about this that Infrareport was created. The idea is, through a mobile application, to allow any citizen from any city in Brazil to report infrastructure problems in their city to the city hall quickly and easily using the Google Maps API to locate the reports."
+      }
+    },
+    "eletronic": {
+      "VSMeter": {
+        "title": "VSMeter",
+        "description": "Electronics & IoT",
+        "explanation": "This project consists of clothing that measures heart rate, blood oxygenation, body temperature, body inclination and respiratory rate with sensors with accuracy between 95% to 100% compared to accurate sensors. In addition, our clothing sends the patient's location in real time to a website with an uncertainty of a radius of only 4 meters. Our project is a resolution proposal for the problem that the world went through in 2020 and 2021: Dozens, hundreds, thousands of people dying at home, because they were alone without any medical assistance. The NodeMCU microcontroller will send the information to the Ubidots platform that will display the data and will analyze the patient's physiological conditions and if any data is outside what is considered healthy, an ambulance is sent to the location where the patient is (since the hospital will have access to the data) and a call is made AUTOMATICALLY by the website to the victim's family members, warning about the location and time of the possible fainting!"
+      }
+    },
+    "GUI": {
+      "Cadastro de clientes": {
+        "title": "Customer registration",
+        "description": "Desktop & Database",
+        "explanation": "This project consists of a desktop application that allows anyone to manage their customer list for their business. The application displays, in a table, the registered customers and allows deleting, searching and inserting new customers in the table. It is extremely intuitive, lightweight and anyone can use it!"
+      },
+      "Smarlink": {
+        "title": "Smarlink",
+        "description": "Chatbot & Networks",
+        "explanation": "I guided the TN2105 team from ETE FMC in the development of the Smarlink project, a project that allows accessing the router and obtaining a report of connected devices via Whatsapp. Through a chatbot, it is possible to obtain information such as: device name, IP and MAC Address. Smartlink is an innovative solution to manage devices connected to the home network in a practical and efficient way."
+      }
+    }
+  },
+  "ui": {
+    "buttons": {
+      "curriculum": "RESUME",
+      "download": "Download",
+      "viewLive": "View Live"
+    },
+    "navbar": {
+      "home": "Home",
+      "projects": "Projects",
+      "feedbacks": "Feedbacks"
+    }
+  },
+   "feedbacks": {
+    "title": "Feedbacks",
+    "showMore": "Show all",
+    "showLess": "Show less",
+    "comments": {
+      "eduardoht": {
+        "name": "Eduardo Henrique Teixeira, Systems Specialist and PhD Candidate at the National Institute of Telecommunications",
+        "content": "I discovered Kauã's work through LinkedIn, where I was able to observe several projects developed by him. Each of these projects used different models and libraries, showing me right away that he is an extremely versatile professional. After I started following his work more closely, I realized that he not only has knowledge of the libraries he uses, but is also capable of modifying their internal functioning to achieve the proposed objectives more efficiently. This skill, uncommon for someone at the beginning of university, highlighted two other exceptional characteristics: his persistence in seeking solutions far beyond what is taught in an undergraduate course and his ease in absorbing knowledge from diverse sources, going beyond formal instruction."
+      },
+      "davimoreira": {
+        "name": "Davi Moreira, Head of Staffs and Growth Marketing at HackTown and CEO of Dejavi",
+        "content": "Kauã is the guy who makes a difference. Always willing to help and easy to work with, he solves any problem with dedication and creativity. When something goes wrong, Kauã goes all the way to find the solution, making everything simpler and more effective. With him, everything flows better and lighter."
+      },
+      "jaineamaral": {
+        "name": "Jaíne Amaral, founder of Plan Way and Head of Operations at Hacktown",
+        "content": "Kauã is driven by challenges. His dedication and persistence inspire, and his proactivity stands out wherever he goes. In my volunteer experience with Kauã, he performed very well in his role as team leader and coordinator with constant engagement, adaptation to scenarios with great intelligence and charisma."
+      },
+      "ojuliocode": {
+        "name": "Júlio Juriolli, software developer at Leucotron",
+        "content": "Kaua is an excellent professional with experience in various technologies. We worked together and I can guarantee that he is excellent at learning new things and developing creative projects. Great problem-solving skills."
+      }
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "common": {
+    "welcome": "BEM VINDO AO MEU PORTFÓLIO",
+    "curriculum": "CURRÍCULO"
+  },
+  "banner": {
+    "title": "Olá, meu nome é Kauã. Tenho experiência em",
+    "rotating": [
+      "Visão Computacional.",
+      "Desenvolvimento fullstack.",
+      "IA, Chatbots e LLMs."
+    ],
+    "bio": "Tenho 21 anos, progamo desde os 14, curso Engenharia de Software no Inatel e sou completamente apaixonado por tecnologia, inovação e desafios. Já trabalhei profissionalmente com Typescript, Express, Next, React, Tailwind, ShadCN, Vitest, Python, Flask, OpenCV, Docker, YOLO, Electron e outras ferramentas.",
+    "callToAction": "Se você está procurando alguém comprometido, criativo e focado em entregar resultados de qualidade, eu estou à disposição para colaborar em seus projetos. Vamos construir algo incrível juntos! Entre em contato comigo através dos meus canais de comunicação. Até mais!",
+    "videoUrl": "https://www.youtube.com/embed/s1xH0MOSWc4",
+    "resume": "https://www.canva.com/design/DAFM3_nlbjY/8Ym6HA8eA6Kaw05UpEHchg/view"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Além de desenvolver aplicações desktop e projetos relacionados à visão computacional, LLMs, chatbots e I.A., sou desenvolvedor Fullstack!\nIsso significa que você pode contar comigo para desenvolver o Frontend e o Backend de sua aplicação e também para hospedá-la."
+  },
+  "projects": {
+    "title": "Projetos",
+    "categories": {
+      "web_development": "Desenvolvimento Web",
+      "computer_vision": "Visão Computacional",
+      "mobile": "Mobile",
+      "eletronic": "Eletrônica",
+      "GUI": "Aplicações Desktop"
+    },
+    "tab": "Aba",
+    "commingSoon": "Em breve",
+    "web_development": {
+      "Judite": {
+        "title": "Judite",
+        "description": "Frontend & Backend",
+        "explanation": "Judite é uma plataforma web criada para automatizar o atendimento de empresas, integrando WhatsApp, Messenger, Instagram Direct e Webchat por meio da API oficial da Meta. O sistema oferece respostas automáticas, mensagens agendadas, dashboard com métricas, gestão de contatos e configuração completa de agentes de I.A., incluindo personalidade, ferramentas e parâmetros de operação. A plataforma também suporta contexto dinâmico extraído de vídeos, sites, PDFs, Word ou texto livre, além de integrações com serviços externos como Correios, Google Sheets, Freshdesk, Brasil API e Asaas. O agente utiliza ainda um banco de dados vetorial, permitindo respostas mais contextuais, precisas e alinhadas aos produtos e serviços da empresa. Com arquitetura modular e práticas de DevOps, o Judite é uma solução escalável, eficiente e fácil de manter."
+      },
+      "Studybuddy": {
+        "title": "Studybuddy",
+        "description": "Frontend & Design"
+      },
+      "Açaí Delivery": {
+        "title": "Açaí Delivery",
+        "description": "Frontend & Delivery"
+      },
+      "Infrareport": {
+        "title": "Infrareport",
+        "description": "Frontend & Google Maps"
+      },
+      "iPhone 15 Pro": {
+        "title": "iPhone 15 Pro",
+        "description": "Frontend & 3D"
+      },
+      "Table manager": {
+        "title": "Table manager",
+        "description": "Frontend & Empresas"
+      },
+      "Save the planet": {
+        "title": "Save the planet",
+        "description": "Jogo & Entretenimento"
+      },
+      "PONG": {
+        "title": "PONG",
+        "description": "Jogo & Entretenimento"
+      },
+      "Team allocation": {
+        "title": "Team allocation",
+        "description": "Frontend & Empresas"
+      },
+      "Github search": {
+        "title": "Github search",
+        "description": "Frontend & API"
+      },
+      "Jogo da forca": {
+        "title": "Jogo da forca",
+        "description": "Jogo & Entretenimento"
+      },
+      "Studybuddy API": {
+        "title": "Studybuddy API",
+        "description": "Backend & REST API"
+      },
+      "Jogo da velha": {
+        "title": "Jogo da velha",
+        "description": "Jogo & Entretenimento"
+      },
+      "Infrareport API": {
+        "title": "Infrareport API",
+        "description": "Backend & REST API"
+      }
+    },
+
+    "computer_vision": {
+      "Reconhecimento facial - HOG": {
+        "title": "Reconhecimento facial - HOG",
+        "description": "I.A. & HOG",
+        "explanation": "Este projeto é uma interface gráfica desenvolvida que permite efetuar o reconhecimento de faces utilizando o método Histogram of Oriented Gradients (HOG) e ele basicamente consiste em uma rede neural já treinada que necessita de UMA única foto de um rosto qualquer e, após efetuar a leitura do rosto, ela define 128 pontos(landmarks) responsáveis por definir aquele rosto e, após isso, basta abrir a webcam ou selecionar uma nova foto com esse rosto e a I.A. reconhecerá!!!! Foi desenvolvido utilizando Python, Tkinter, OpenCV e a biblioteca \"face_recognition\"."
+      },
+      "Detector RTSP": {
+        "title": "Detector RTSP",
+        "description": "Classificação e Detecção",
+        "explanation": "O Detector RTSP é um software que transforma qualquer câmera de segurança em uma central de alarme via protocolo RTSP; ele utiliza um classificador em tempo real que identifica imagens como \"Incêndio\", \"Com pessoa\" ou \"Sem pessoa\"; se o classificador determinar que algum frame possui uma pessoa, um segundo modelo, desta vez, um detector, é chamado para confirmar a presença da pessoa; se a presença for confirmada, um terceiro detector é acionado para identificar se essa pessoa está portando uma arma de fogo ou uma faca; além disso, o software conta com um sistema de detecção e classificação de incêndios; caso algum evento seja detectado, uma mensagem é enviada automaticamente para o WhatsApp do usuário com a imagem exata do frame onde o evento ocorreu; todos os modelos foram treinados por mim, e toda a interface e o backend foram desenvolvidos com HTML, CSS, JavaScript, Electron e Python."
+      },
+      "Paint visual": {
+        "title": "Paint visual",
+        "description": "I.A. & Design",
+        "explanation": "Este projeto nada mais é que uma versão simulada e reduzida do software Paint, mas controlado pelas mãos. O software detecta os sinais feitos com a mão e permite desenhar em verde, azul e vermelho e, além disso, permite apagar o que já foi desenhado! Se você levantar o dedo indicador com o dedo médio, o software entenderá que você está selecionando uma das três cores possíveis, portanto, está em modo de seleção e, se você levantar somente o dedo indicador, o software entenderá que você está desenhando na tela. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe."
+      },
+      "Move Vision": {
+        "title": "Move Vision",
+        "description": "I.A. & Entretenimento",
+        "explanation": "Move Vision é um jogo de movimento corporal. Basicamente, você acessa o jogo se registrando com um usuário e senha e, após clicar no botão \"Play\", o jogo abre sua câmera e divide ela em uma matriz 3x3 onde cada célula representa uma posição possível. Após isso, é exibida uma imagem e dois pontos representando a posição que você deve ficar e o jogador deve, em menos de um segundo, se adequar a posição exibida na imagem. As imagens são trocadas de segundo em segundo e, enquanto o jogador conseguir se adequar à sequência de movimentos e posições, ele ganha ponto, mas, se errar uma posição, o jogador perde."
+      },
+      "CEPEG": {
+        "title": "CEPEG",
+        "description": "I.A. & Eletrônica",
+        "explanation": "O CEPEG foi um projeto desenvolvido tentando ajudar qualquer tipo de empresa que utiliza EPIs no seu ambiente de trabalho. O projeto é dividido em três etapas: <br/>1ª Etapa - Teste cognitivo;<br/>2ª Etapa - Reconhecimento do funcionário;<br/>3ª Etapa - Reconhecimento dos EPIs.<br/>Na 1ª etapa, o funcionário passa por um teste cognitivo, desenvolvido em Python(Pygame), que irá testar a cognição do funcionário, para averiguar se ele está apto ou não para executar o trabalho de risco.<br/>Na 2ª etapa, quando o funcionário vai bater o ponto, ele escolhe uma das 3 formas de reconhecimento: Reconhecimento facial, biometria ou leitor RFID. O reconhecimento do funcionário deve ser feito para averiguar se o funcionário trabalha ou não nesse setor e para registrar a sua entrada.<br/>Na 3ª e última etapa, o funcionário deve se posicionar de frente com uma câmera que estará conectada ao computador e que, através de Inteligência Artificial(Machine Learning), vai averiguar se o funcionário está ou não utilizando os EPIs. O tempo de verificação demora em torno de 8 segundos.<br/>Se o funcionário estiver utilizando os EPIs de forma correta, uma catraca libera o acesso do funcionário ao setor de trabalho, mas, se o funcionário não estiver utilizando, uma mensagem é enviada automaticamente para o WhatsApp do seu chefe, avisando sobre o mau uso das EPIs.<br/>O projeto também conta com um site e uma GUI(Interface Gráfica) para fazer cadastros de funcionários e de setores da empresa. Além disso, a GUI e o Site também exibe gráficos, tabelas, relatórios e imagens que confirmam que o funcionário estava ou não utilizando as EPIs. Todas as informações do site são guardadas no Firebase e as informações da GUI no MySQL.<br/>O CEPEG foi o melhor projeto na categoria Utilidades da Feira de projetos de 2022 da Escola Técnica de Eletrônica Francisco Moreira da Costa e ganhou uma premiação da Prefeitura Municipal.<br/>Tecnologias utilizadas na criação do projeto: Eletrônica, HTML, CSS, JavaScript, Bootstrap, Python, NodeJS, SQL, C++, OpenCV, Machine Learning, Firebase e MySQL."
+      }
+    },
+
+    "mobile": {
+      "Infrareport Mobile": {
+        "title": "Infrareport Mobile",
+        "description": "Mobile & Google Maps",
+        "explanation": "Por acaso, já encontrou algum problema de infraestrutura na sua cidade enquanto caminhava na rua? Provavelmente, todo dia. Com a dificuldade que os cidadãos encontram de reportar tais problemas, torna-se difícil a localização dos problemas urbanos por parte da prefeitura. Foi pensando nisso que o Infrareport foi criado. A ideia é, por meio de um aplicativo mobile, permitir com que qualquer cidadão de qualquer cidade do Brasil reporte problemas de infraestrutura da sua cidade para a prefeitura de forma rápida e fácil utilizando a API do Google Maps para localizar as ocorrências."
+      }
+    },
+
+    "eletronic": {
+      "VSMeter": {
+        "title": "VSMeter",
+        "description": "Eletrônica & IoT",
+        "explanation": "Este projeto consiste em uma roupa que mede o batimento cardíaco, oxigenação sanguínea, temperatura corporal, inclinação corporal e frequência respiratória com sensores com precisão entre 95% até 100% em comparação com sensores precisos. Além disso, nossa roupa manda a localização em tempo real do paciente para um site com uma incerteza de um raio de apenas 4 metros. Nosso projeto é uma proposta de resolução para o problema que o mundo passou em 2020 e em 2021: Dezenas, centenas, milhares de pessoas morrendo em casa, porque estavam sozinhas sem nenhum atendimento médico. O microcontrolador NodeMCU mandará as informações para a plataforma Ubidots que irá exibir os dados e irá fazer a análise das condições fisiológicas do paciente e se algum dado estiver fora do que é considerado saudável, uma ambulância é mandada até o local em que o paciente se encontra(pois o hospital terá acesso aos dados) e uma ligação é feita AUTOMATICAMENTE pelo site para os familiares da vítima, avisando sobre o local e horário do possível desmaio!"
+      }
+    },
+
+    "GUI": {
+      "Cadastro de clientes": {
+        "title": "Cadastro de clientes",
+        "description": "Desktop & Banco de dados",
+        "explanation": "Este projeto consiste em uma aplicação desktop que permite qualquer pessoa gerenciar sua lista de clientes do seu negócio. A aplicação exibe, em uma tabela, os clientes cadastrados e permite deletar, pesquisar e inserir novos clientes na tabela. É extremamente intuitivo, leve e qualquer um pode usar!"
+      },
+      "Smarlink": {
+        "title": "Smarlink",
+        "description": "Chatbot & Redes",
+        "explanation": "Orientei a equipe TN2105 da ETE FMC no desenvolvimento do projeto Smarlink, um projeto que permite acessar o roteador e obter um relatório dos dispositivos conectados via Whatsapp. Por meio de um chatbot, é possível obter informações como: nome do dispositivo, IP e MAC Address. O Smartlink é uma solução inovadora para gerenciar dispositivos conectados à rede doméstica de forma prática e eficiente."
+      }
+    }
+  },
+  "ui": {
+    "buttons": {
+      "curriculum": "CURRÍCULO"
+    },
+    "navbar": {
+      "home": "Home",
+      "projects": "Projetos",
+      "feedbacks": "Feedbacks"
+    }
+  },
+  "feedbacks": {
+    "title": "Feedbacks",
+    "showMore": "Mostrar todos",
+    "showLess": "Mostrar menos",
+    "comments": {
+      "eduardoht": {
+        "name": "Eduardo Henrique Teixeira, especialista em Sistemas e Doutorando no Instituto Nacional de Telecomunicações",
+        "content": "Descobri o trabalho do Kauã através do LinkedIn, onde pude observar diversos projetos desenvolvidos por ele. Cada um desses projetos utilizava diferentes modelos e bibliotecas, me mostrando logo de inicio que ele é um profissional extremamente versátil. Depois que comecei a acompanhar seu trabalho mais de perto, percebi que ele não apenas possui um conhecimento das bibliotecas que utiliza, mas também é capaz de modificar seu funcionamento interno para alcançar os objetivos propostos com maior eficiência. Essa habilidade, incomum para alguém no início da universidade, destacou outras duas características excepcionais: sua persistência em buscar soluções muito além do que é ensinado em um curso de graduação e sua facilidade em absorver conhecimento de diversas fontes, indo além da instrução formal."
+      },
+      "davimoreira": {
+        "name": "Davi Moreira, Head de Staffs e Growth Marketing no HackTown e CEO da Dejavi",
+        "content": "Kauã é o cara que faz a diferença. Sempre disposto a ajudar e fácil de lidar, ele resolve qualquer problema com dedicação e criatividade. Quando algo dá errado, Kauã vai até o final para encontrar a solução, tornando tudo mais simples e eficaz. Com ele, tudo flui melhor e mais leve."
+      },
+      "jaineamaral": {
+        "name": "Jaíne Amaral, fundadora da Plan Way e Head de operações do Hacktown",
+        "content": "Kauã é movido por desafios. Sua dedicação e persistência inspiram e sua proatividade é destaque por onde passa. Em minha experiência de voluntariado com Kauã, ele desempenhou muito bem sua função de líder e coordenador de equipe com engajamento constante, adaptação aos cenários com muita inteligência e carisma."
+      },
+      "ojuliocode": {
+        "name": "Júlio Juriolli, desenvolvedor de software da Leucotron",
+        "content": "Kaua é um excelente profissional, com experiência em diversas tecnologias. Trabalhamos juntos e posso garantir que é excelente em aprender novas coisas e desenvolver projetos criativos. Ótimas habilidades em solução de problemas."
+      }
+    }
+  }
+}
