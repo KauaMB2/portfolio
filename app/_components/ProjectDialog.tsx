@@ -11,6 +11,7 @@ import {
 import { ExternalLink, Download, Play, X } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 import { Project } from "@/models/project";
+import Link from "next/link";
 
 interface ProjectDialogProps {
   projectKey?: string;
@@ -107,12 +108,12 @@ export const ProjectDialog = ({
                             opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               {haveModal ? (
                 <>
-                  <span>Ver detalhes</span>
+                  <span>{t('projects.details')}</span>
                   <ExternalLink className="w-4 h-4" />
                 </>
               ) : link ? (
                 <>
-                  <span>Abrir projeto</span>
+                  <span>{t('projects.openProject')}</span>
                   <ExternalLink className="w-4 h-4" />
                 </>
               ) : null}
@@ -198,7 +199,7 @@ export const ProjectDialog = ({
             )}
             <div className="flex flex-wrap gap-4 pt-4">
               {isDownloadable && link && (
-                <a
+                <Link
                   href={link}
                   download
                   className="flex items-center gap-2 px-6 py-3 rounded-lg
@@ -210,7 +211,7 @@ export const ProjectDialog = ({
                 >
                   <Download className="w-5 h-5" />
                   Download
-                </a>
+                </Link>
               )}
             </div>
           </div>

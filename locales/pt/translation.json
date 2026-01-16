@@ -13,7 +13,7 @@
     "bio": "Tenho 21 anos, progamo desde os 14, curso Engenharia de Software no Inatel e sou completamente apaixonado por tecnologia, inovação e desafios. Já trabalhei profissionalmente com Typescript, Express, Next, React, Tailwind, ShadCN, Vitest, Python, Flask, OpenCV, Docker, YOLO, Electron e outras ferramentas.",
     "callToAction": "Se você está procurando alguém comprometido, criativo e focado em entregar resultados de qualidade, eu estou à disposição para colaborar em seus projetos. Vamos construir algo incrível juntos! Entre em contato comigo através dos meus canais de comunicação. Até mais!",
     "videoUrl": "https://www.youtube.com/embed/s1xH0MOSWc4",
-    "resume": "https://www.canva.com/design/DAFM3_nlbjY/8Ym6HA8eA6Kaw05UpEHchg/view"
+    "resume": "https://www.canva.com/design/DAG-TvNDRds/-WLmEb4MMIYiGq5Iu1WjYQ/view"
   },
   "skills": {
     "title": "Habilidades",
@@ -30,6 +30,8 @@
     },
     "tab": "Aba",
     "commingSoon": "Em breve",
+    "openProject": "Abrir o projeto",
+    "details": "Ver detalhes",
     "web_development": {
       "Judite": {
         "title": "Judite",
@@ -87,6 +89,16 @@
       "Infrareport API": {
         "title": "Infrareport API",
         "description": "Backend & REST API"
+      },
+      "Aparatus": {
+        "title": "Aparatus",
+        "description": "Frontend & Backend",
+        "explanation": "Aparatus é um SaaS de agendamento para barbearias que utiliza um chatbot para marcar horários. Os pagamentos são realizados via Stripe e a autenticação é feita por meio de OAuth."
+      },
+      "Personagem 3D": {
+        "title": "Personagem 3D",
+        "description": "Frontend & 3D",
+        "explanation": "Projeto web de personagem 3D com foco em visualização e configuração interativa, utilizando tecnologias modernas de frontend e renderização 3D."
       }
     },
 

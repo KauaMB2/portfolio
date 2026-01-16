@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { ChevronDown, ChevronUp, Quote } from 'lucide-react';
 import { Button } from '@/app/_components/ui/button';
 import { Comment } from '@/models/comment';
+import Link from 'next/link';
 
 export const Feedbacks = () => {
   const { t } = useTranslation();
@@ -75,7 +76,7 @@ export const Feedbacks = () => {
                   <Quote className="absolute top-4 right-4 w-12 h-12 text-purple-500/20 group-hover:text-purple-500/40 transition-colors duration-300" />
                   
                   <div className="flex items-center gap-4 mb-4 relative z-10">
-                    <a 
+                    <Link 
                       href={comment.link}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -90,10 +91,10 @@ export const Feedbacks = () => {
                           className="object-cover"
                         />
                       </div>
-                    </a>
+                    </Link>
                     
                     <div className="flex-1">
-                      <a 
+                      <Link 
                         href={comment.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -103,7 +104,7 @@ export const Feedbacks = () => {
                           {t(`feedbacks.comments.${comment.id}.name`)}
                         </h6>
                         <p className="text-purple-400 text-sm">@{comment.arrouba}</p>
-                      </a>
+                      </Link>
                     </div>
                   </div>
 

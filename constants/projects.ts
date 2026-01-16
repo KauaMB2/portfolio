@@ -32,6 +32,8 @@ import detectorrtspImage from "@/public/img/detectorrtspImage.png"
 import juditeImage from "@/public/img/juditeImage.png"
 import acaideliveryImage from "@/public/img/acaideliveryImage.png";
 import smarlinkImage from "@/public/img/smarlinkImage.png";
+import aparatusImage from "@/public/img/aparatusbarbershop.png";
+import characterconfigImage from "@/public/img/3dcharacterconfig.png";
 import { Project } from "@/models/project";
 
 export interface ProjectConstant {
@@ -86,14 +88,6 @@ export const projects: ProjectConstant = {
         haveModal: false,
       },
       {
-        title: "Açaí Delivery",
-        description: "Frontend & Delivery",
-        imgUrl: acaideliveryImage,
-        link: "https://acaideliverysrs.vercel.app",
-        isDownloadable: false,
-        haveModal: false,
-      },
-      {
         title: "Infrareport",
         description: "Frontend & Google Maps",
         imgUrl: infrareportImage,
@@ -108,6 +102,33 @@ export const projects: ProjectConstant = {
         link: "https://appleiphone15prokaua.vercel.app",
         isDownloadable: false,
         haveModal: false,
+      },
+      {
+        title: "Aparatus",
+        description: "Frontend & Backend",
+        imgUrl: aparatusImage,
+        explanation: "Aparatus é um SaaS de agendamento de barbearias que utiliza um chatbot para agendar cortes. O pagamento é feito via Stripe e a autenticação via OAuth.",
+        link: "https://aparatusbarbershop.vercel.app",
+        isDownloadable: false,
+        haveModal: false,
+      },
+      {
+        title: "Personagem 3D",
+        description: "Frontend & 3D",
+        imgUrl: characterconfigImage,
+        link: "https://3dcharacterconfig.vercel.app",
+        isDownloadable: false,
+        haveModal: false,
+      }
+    ],
+    2: [
+      {
+        title: "Açaí Delivery",
+        description: "Frontend & Delivery",
+        imgUrl: acaideliveryImage,
+        link: "https://acaideliverysrs.vercel.app",
+        isDownloadable: false,
+        haveModal: false,
       },{
         title: "Table manager",
         description: "Frontend & Empresas",
@@ -115,9 +136,7 @@ export const projects: ProjectConstant = {
         link: "https://tablemanager.vercel.app",
         isDownloadable: false,
         haveModal: false,
-      }
-    ],
-    2: [
+      },
       {
         title: "Save the planet",
         description: "Jogo & Entretenimento",
@@ -146,22 +165,7 @@ export const projects: ProjectConstant = {
         link: "https://githubsearchkaua.vercel.app",
         isDownloadable: false,
         haveModal: false,
-      },{
-        title: "Jogo da forca",
-        description: "Jogo & Entretenimento",
-        imgUrl: jogodaforcaImage,
-        link: "https://hangmankaua.vercel.app",
-        isDownloadable: false,
-        haveModal: false,
-      },
-      {
-        title: "Studybuddy API",
-        description: "Backend & REST API",
-        imgUrl: studybuddyapiImage,
-        link: "https://kauamoreira.pythonanywhere.com/api/",
-        isDownloadable: false,
-        haveModal: false,
-      },
+      }
     ],
     3: [
       {
@@ -179,7 +183,23 @@ export const projects: ProjectConstant = {
         link: "https://infrareportrestapi.pythonanywhere.com",
         isDownloadable: false,
         haveModal: false,
-      }
+      },
+      {
+        title: "Jogo da forca",
+        description: "Jogo & Entretenimento",
+        imgUrl: jogodaforcaImage,
+        link: "https://hangmankaua.vercel.app",
+        isDownloadable: false,
+        haveModal: false,
+      },
+      {
+        title: "Studybuddy API",
+        description: "Backend & REST API",
+        imgUrl: studybuddyapiImage,
+        link: "https://kauamoreira.pythonanywhere.com/api/",
+        isDownloadable: false,
+        haveModal: false,
+      },
     ],
   },
   computer_vision: {

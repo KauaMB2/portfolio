@@ -13,7 +13,7 @@
     "bio": "I am 21 years old, have been programming since I was 14, and am currently studying Software Engineering at Inatel. I am deeply passionate about technology, innovation, and challenges. I have professional experience working with TypeScript, Express, Next, React, Tailwind, ShadCN, Vitest, Python, Flask, OpenCV, Docker, YOLO, Electron, and other tools.",
     "callToAction": "If you're looking for someone committed, creative, and focused on delivering high-quality results, I’m ready to collaborate on your projects. Let’s build something amazing together! Feel free to contact me through my communication channels. See you soon!",
     "videoUrl": "https://www.youtube.com/embed/lFD4XdzbYlA",
-    "resume": "https://www.canva.com/design/DAFXM0qkZG8/76ZM0i_LuulglBzpQg4T4Q/view"
+    "resume": "https://www.canva.com/design/DAG-T2ub20w/9DCvN5kxcCVG7BUsVVxpIQ/view"
   },
   "skills": {
     "title": "Skills",
@@ -30,6 +30,8 @@
     },
     "tab": "Tab",
     "commingSoon": "Comming soon",
+    "openProject": "Open project",
+    "details": "Details",
     "web_development": {
       "Judite": {
         "title": "Judite",
@@ -87,6 +89,16 @@
       "Infrareport API": {
         "title": "Infrareport API",
         "description": "Backend & REST API"
+      },
+      "Aparatus": {
+        "title": "Aparatus",
+        "description": "Frontend & Backend",
+        "explanation": "Aparatus is a barbershop scheduling SaaS that uses a chatbot to book appointments. Payments are processed via Stripe, and authentication is handled through OAuth."
+      },
+      "3D Character": {
+        "title": "3D Character",
+        "description": "Frontend & 3D",
+        "explanation": "A web-based 3D character project focused on interactive visualization and configuration using modern frontend and 3D technologies."
       }
     },
     "computer_vision": {

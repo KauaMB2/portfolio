@@ -30,6 +30,8 @@
     },
     "tab": "Scheda",
     "commingSoon": "Presto",
+    "openProject": "Aprire il progetto",
+    "details": "Dettagli",
     "web_development": {
       "Judite": {
         "title": "Judite",
@@ -87,6 +89,16 @@
       "Infrareport API": {
         "title": "Infrareport API",
         "description": "Backend & REST API"
+      },
+      "Aparatus": {
+        "title": "Aparatus",
+        "description": "Frontend & Backend",
+        "explanation": "Aparatus è un SaaS per la prenotazione di appuntamenti per barbieri che utilizza un chatbot per fissare i tagli. I pagamenti sono gestiti tramite Stripe e l'autenticazione avviene tramite OAuth."
+      },
+      "Personaggio 3D": {
+        "title": "Personaggio 3D",
+        "description": "Frontend & 3D",
+        "explanation": "Progetto web di personaggio 3D incentrato sulla visualizzazione e configurazione interattiva, realizzato con moderne tecnologie frontend e 3D."
       }
     },
     "computer_vision": {

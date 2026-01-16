@@ -4,18 +4,17 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
-import linkedinIcon from "@/public/img/linkedin.svg";
-import whatsappIcon from "@/public/img/whatsapp.svg";
-import githubIcon from "@/public/img/github.svg";
-import instagramIcon from "@/public/img/instagram.svg";
 import { Menu, X } from 'lucide-react';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger
-} from '@/app/_components/ui/dropdown-menu';
 import { Button } from '@/app/_components/ui/button';
+import { socialLinks } from '@/constants/social-networks';
+import NavBarMobile from './NavBarMobile';
+import LanguageChoicer from './LanguageChoicer';
+
+export interface NavBarLink {
+    href: string;
+    key: string;
+    label: string;
+}
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -50,18 +49,13 @@ const Navbar = () => {
     }
   };
 
-  const navLinks = [
+  const navLinks: NavBarLink[] = [
     { href: '#home', key: 'home', label: t('ui.navbar.home') },
     { href: '#projects', key: 'projects', label: t('ui.navbar.projects') },
     { href: '#feedbacks', key: 'feedbacks', label: t('ui.navbar.feedbacks') },
   ];
 
-  const socialLinks = [
-    { href: 'https://www.linkedin.com/in/kauamb2/', icon: linkedinIcon, alt: 'LinkedIn' },
-    { href: 'https://wa.me/5535984714567', icon: whatsappIcon, alt: 'WhatsApp' },
-    { href: 'https://www.instagram.com/kaua.moreira.batista/', icon: instagramIcon, alt: 'Instagram' },
-    { href: 'https://github.com/KauaMB2/', icon: githubIcon, alt: 'GitHub' },
-  ];
+  
 
   return (
     <nav
@@ -72,7 +66,7 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-end lg:justify-between h-20">
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
@@ -95,48 +89,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden md:flex items-center space-x-6">
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button
-                  variant="outline"
-                  className="bg-gray-800/50 border-gray-700 text-white hover:bg-gray-700 hover:text-white hover:border-purple-500 transition-all duration-300 hover:cursor-pointer"
-                >
-                  {getCurrentLanguageText()}
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="bg-gray-800 border-gray-700">
-                <DropdownMenuItem
-                  onClick={() => switchLanguage('pt')}
-                  className={`cursor-pointer ${
-                    currentLang === 'pt'
-                      ? 'bg-purple-600 text-white'
-                      : 'text-gray-300 hover:bg-gray-700'
-                  }`}
-                >
-                  🇧🇷 PT
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => switchLanguage('en')}
-                  className={`cursor-pointer ${
-                    currentLang === 'en'
-                      ? 'bg-purple-600 text-white'
-                      : 'text-gray-300 hover:bg-gray-700'
-                  }`}
-                >
-                  🇺🇸 EN
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => switchLanguage('it')}
-                  className={`cursor-pointer ${
-                    currentLang === 'it'
-                      ? 'bg-purple-600 text-white'
-                      : 'text-gray-300 hover:bg-gray-700'
-                  }`}
-                >
-                  🇮🇹 IT
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <LanguageChoicer switchLanguage={switchLanguage} getCurrentLanguageText={getCurrentLanguageText} currentLang={currentLang} /> 
             <div className="flex items-center space-x-3">
               {socialLinks.map((social) => (
                 <Link
@@ -160,72 +113,7 @@ const Navbar = () => {
         </div>
       </div>
       {mobileMenuOpen && (
-        <div className="md:hidden bg-gray-900/98 backdrop-blur-lg border-t border-gray-800">
-          <div className="px-4 pt-4 pb-6 space-y-4">
-            {navLinks.map((link) => (
-              <Link
-                key={link.key}
-                href={link.href}
-                onClick={() => {
-                  setActiveLink(link.key);
-                  setMobileMenuOpen(false);
-                }}
-                className={`block py-2 text-base font-medium transition-colors ${
-                  activeLink === link.key
-                    ? 'text-purple-400'
-                    : 'text-gray-300 hover:text-white'
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <div className="pt-4 border-t border-gray-800">
-              <div className="flex items-center justify-between">
-                <DropdownMenu>
-                  <DropdownMenuTrigger asChild>
-                    <Button variant="outline" className="bg-gray-800 border-gray-700 text-white">
-                      {getCurrentLanguageText()}
-                    </Button>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent className="bg-gray-800 border-gray-700">
-                    <DropdownMenuItem
-                      onClick={() => switchLanguage('pt')}
-                      className={currentLang === 'pt' ? 'bg-purple-600 text-white' : 'text-gray-300'}
-                    >
-                      🇧🇷 PT
-                    </DropdownMenuItem>
-                    <DropdownMenuItem
-                      onClick={() => switchLanguage('en')}
-                      className={currentLang === 'en' ? 'bg-purple-600 text-white' : 'text-gray-300'}
-                    >
-                      🇺🇸 EN
-                    </DropdownMenuItem>
-                    <DropdownMenuItem
-                      onClick={() => switchLanguage('it')}
-                      className={currentLang === 'it' ? 'bg-purple-600 text-white' : 'text-gray-300'}
-                    >
-                      🇮🇹 IT
-                    </DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
-                
-                <div className="flex space-x-3">
-                  {socialLinks.map((social) => (
-                    <Link
-                      key={social.alt}
-                      href={social.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="w-10 h-10 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:bg-purple-600 transition-all"
-                    >
-                      <Image src={social.icon} alt={social.alt} width={18} height={18} />
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <NavBarMobile switchLanguage={switchLanguage} navLinks={navLinks} setActiveLink={setActiveLink} setMobileMenuOpen={setMobileMenuOpen} activeLink={activeLink} getCurrentLanguageText={getCurrentLanguageText} currentLang={currentLang} />
       )}
     </nav>
   );
