@@ -7,7 +7,7 @@ import logo from '@/public/img/logo3.png';
 import { socialLinks } from '@/constants/social-networks';
 
 
-export const Footer = () => {
+const Footer = () => {
 
   const handleEmailClick = () => {
     window.location.href = 'mailto:i.kauamoreirabatista@gmail.com';
@@ -95,3 +95,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

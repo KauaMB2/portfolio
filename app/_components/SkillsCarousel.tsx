@@ -15,7 +15,7 @@ interface TechCarouselProps {
 
 const SPEED = 0.8;
 
-export const TechCarousel = ({ icons }: TechCarouselProps) => {
+const TechCarousel = ({ icons }: TechCarouselProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const itemRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number>(null);
@@ -135,3 +135,5 @@ export const TechCarousel = ({ icons }: TechCarouselProps) => {
     </div>
   );
 };
+
+export default TechCarousel;

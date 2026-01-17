@@ -24,7 +24,7 @@ interface ProjectDialogProps {
   haveModal?: boolean;
 }
 
-export const ProjectDialog = ({
+const ProjectDialog = ({
   projectKey,
   category,
   project,
@@ -202,3 +202,5 @@ export const ProjectDialog = ({
     </Dialog>
   );
 };
+
+export default ProjectDialog;

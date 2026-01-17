@@ -7,10 +7,10 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/app/_components/ui/button';
 import { Download } from 'lucide-react';
 import logoIcon from "@/public/img/logo4.png"
-import { TechCarousel } from './SkillsCarousel';
+import TechCarousel from './SkillsCarousel';
 import { iconsArray } from '@/constants/skills-icons-array';
 
-export const Banner = () => {
+const Banner = () => {
   const { t } = useTranslation();
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -188,3 +188,5 @@ export const Banner = () => {
     </section>
   );
 };
+
+export default Banner;

@@ -19,6 +19,10 @@
     "title": "Habilidades",
     "description": "Além de desenvolver aplicações desktop e projetos relacionados à visão computacional, LLMs, chatbots e I.A., sou desenvolvedor Fullstack!\nIsso significa que você pode contar comigo para desenvolver o Frontend e o Backend de sua aplicação e também para hospedá-la."
   },
+  "mainProjects": {
+    "badge": "Projetos em destaque",
+    "title": "Meus principais projetos"
+  },
   "projects": {
     "title": "Projetos",
     "categories": {

@@ -10,7 +10,7 @@ import { Button } from '@/app/_components/ui/button';
 import { Comment } from '@/models/comment';
 import Link from 'next/link';
 
-export const Feedbacks = () => {
+const Feedbacks = () => {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -151,3 +151,5 @@ export const Feedbacks = () => {
     </section>
   );
 };
+
+export default Feedbacks;

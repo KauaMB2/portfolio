@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ProjectDialog } from "./ProjectDialog";
+import ProjectDialog from "./ProjectDialog";
 import colorSharp2 from "@/public/img/color-sharp2.png";
 import 'animate.css';
 import { projects } from "@/constants/projects";
@@ -21,7 +21,7 @@ interface ResponsiveStyles {
   minHeight: string;
 }
 
-export const Projects = () => {
+const Projects = () => {
   const { t } = useTranslation();
   const [tab, setTab] = useState<string>("1");
   const [category, setCategory] = useState<string>('web_development');
@@ -333,3 +333,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;

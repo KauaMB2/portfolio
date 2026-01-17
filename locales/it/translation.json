@@ -19,6 +19,10 @@
     "title": "Competenze",
     "description": "Oltre a sviluppare applicazioni desktop e progetti legati alla visione artificiale, agli LLM, ai chatbot e all’IA, sono uno sviluppatore Fullstack!\nQuesto significa che puoi contare su di me per realizzare sia il frontend che il backend della tua applicazione — e anche per distribuirla (deploy)."
   },
+  "mainProjects": {
+    "badge": "Progetti in evidenza",
+    "title": "I miei progetti principali"
+  },
   "projects": {
     "title": "Progetti",
     "categories": {

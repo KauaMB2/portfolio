@@ -19,6 +19,10 @@
     "title": "Skills",
     "description": "In addition to developing desktop applications and projects related to computer vision, LLMs, chatbots, and AI, I’m a Fullstack developer!\nThis means you can count on me to build both the frontend and backend of your application—and even deploy it."
   },
+  "mainProjects": {
+    "badge": "Featured Projects",
+    "title": "My main projects"
+  },
   "projects": {
     "title": "Projects",
     "categories": {
