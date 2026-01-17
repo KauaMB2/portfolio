@@ -16,7 +16,7 @@ const LanguageChoicer = ({ switchLanguage, getCurrentLanguageText, currentLang }
   return (
     <DropdownMenu>
         <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="bg-gray-800 border-gray-700 text-white">
+            <Button variant="outline" className="bg-gray-800 border-gray-700 text-white hover:cursor-pointer">
                 {getCurrentLanguageText()}
             </Button>
         </DropdownMenuTrigger>
