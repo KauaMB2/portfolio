@@ -222,6 +222,7 @@
     },
     "navbar": {
       "home": "Home",
+      "mainProjects": "Progetti principali",
       "projects": "Progetti",
       "feedbacks": "Feedbacks"
     }

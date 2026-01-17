@@ -51,6 +51,7 @@ const Navbar = () => {
 
   const navLinks: NavBarLink[] = [
     { href: '#home', key: 'home', label: t('ui.navbar.home') },
+    { href: '#mainProjects', key: 'mainProjects', label: t('ui.navbar.mainProjects') },
     { href: '#projects', key: 'projects', label: t('ui.navbar.projects') },
     { href: '#feedbacks', key: 'feedbacks', label: t('ui.navbar.feedbacks') },
   ];

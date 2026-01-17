@@ -36,7 +36,7 @@ const MainProjects = ({ projectTitles }: MainProjectsProps) => {
   }
 
   return (
-    <section className="w-full py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <section id="mainProjects" className="w-full py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-linear-to-b from-black via-purple-950/5 to-black" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-[120px] animate-pulse" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-600/10 rounded-full blur-[120px] animate-pulse" />
@@ -174,7 +174,7 @@ const MainProjects = ({ projectTitles }: MainProjectsProps) => {
                               shadow-[0_0_30px_rgba(147,51,234,0.6)]
                               group-hover:scale-110 transition-transform duration-300">
                   <span className="text-white font-bold text-lg">
-                    {String(index + 1).padStart(2, '0')}
+                    ⭐
                   </span>
                 </div>
               </div>
