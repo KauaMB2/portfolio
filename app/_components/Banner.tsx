@@ -88,7 +88,7 @@ const Banner = () => {
               </span>
             </div>
 
-            <h3 className="text-xl lg:text-3xl font-bold text-white leading-tight">
+            <h3 className="text-xl lg:text-3xl font-bold text-white leading-tight min-h-20 sm:min sm:min-h-20n-h-0">
               {t('banner.title')}
               <span className="bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient">
                 {' '}{text}
