@@ -346,7 +346,7 @@ export const projects: ProjectConstant = {
         link: "https://drive.google.com/uc?export=download&id=1EBi1P63DkbQmKV0pG38kTlQvoXLXi6rQ",
       },
       {
-        title: "I.A. Personal trainer",
+        title: "IA Personal trainer",
         description: "I.A. & Detecção",
         videoUrl: "https://www.youtube.com/embed/9nlQETYTNNU",
         explanation: "Este projeto é um personal trainer automático. Utilizando inteligência artificial, é possível calcular a angulação criado por seu braço durante a execução da flexão de bíceps com halter e, utilizando essa angulação, é possível saber se o usuário está fazendo o exercício corretamente e quantas vezes ele executou. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe.",

@@ -36,7 +36,6 @@ export const ProjectDialog = ({
 }: ProjectDialogProps) => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   const resolvedKey = projectKey ?? (project && (project.title)) ?? "";
   const safeKey = String(resolvedKey).replace(/\./g, "_");
@@ -126,8 +125,8 @@ export const ProjectDialog = ({
       </DialogTrigger>
 
       {haveModal && (
-        <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto bg-black/95 border-purple-500/30 
-                                   backdrop-blur-xl text-white [&>button]:hidden">
+        <DialogContent className="max-w-6xl! max-h-[90vh] overflow-y-auto bg-black/95 border-purple-500/30 
+                           backdrop-blur-xl text-white [&>button]:hidden">
           <DialogHeader className="space-y-4">
             <DialogTitle className="text-3xl font-bold bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 
                                      bg-clip-text text-transparent">
@@ -150,31 +149,14 @@ export const ProjectDialog = ({
             {videoUrl && (
               <div className="relative aspect-video rounded-xl overflow-hidden 
                               border border-purple-500/30 shadow-[0_0_30px_rgba(147,51,234,0.3)]">
-                {!isVideoPlaying ? (
-                  <div className="relative w-full h-full group cursor-pointer" onClick={() => setIsVideoPlaying(true)}>
-                    <Image
-                      src={imgUrl}
-                      alt={title}
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                      <div className="w-20 h-20 rounded-full bg-purple-600/80 backdrop-blur-sm
-                                      flex items-center justify-center
-                                      group-hover:scale-110 group-hover:bg-pink-600/80
-                                      transition-all duration-300
-                                      shadow-[0_0_40px_rgba(147,51,234,0.8)]">
-                        <Play className="w-10 h-10 text-white ml-1" fill="white" />
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <video
+              <iframe
+                    key={videoUrl}
                     src={videoUrl}
-                    controls
-                    autoPlay
                     className="w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="YouTube video player"
                   />
-                )}
               </div>
             )}
             {!videoUrl && imgUrl && (

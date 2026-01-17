@@ -106,27 +106,82 @@
       "Reconhecimento facial - HOG": {
         "title": "Reconhecimento facial - HOG",
         "description": "I.A. & HOG",
-        "explanation": "Este projeto é uma interface gráfica desenvolvida que permite efetuar o reconhecimento de faces utilizando o método Histogram of Oriented Gradients (HOG) e ele basicamente consiste em uma rede neural já treinada que necessita de UMA única foto de um rosto qualquer e, após efetuar a leitura do rosto, ela define 128 pontos(landmarks) responsáveis por definir aquele rosto e, após isso, basta abrir a webcam ou selecionar uma nova foto com esse rosto e a I.A. reconhecerá!!!! Foi desenvolvido utilizando Python, Tkinter, OpenCV e a biblioteca \"face_recognition\"."
+        "explanation": "Este projeto é uma interface gráfica desenvolvida que permite efetuar o reconhecimento de faces utilizando o método Histogram of Oriented Gradients (HOG). Ele consiste basicamente em uma rede neural já treinada que necessita de apenas uma foto de um rosto qualquer e, após realizar a leitura facial, define 128 pontos (landmarks) responsáveis por caracterizar aquele rosto. Após isso, basta abrir a webcam ou selecionar uma nova foto contendo esse rosto para que a I.A. o reconheça. O projeto foi desenvolvido utilizando Python, Tkinter, OpenCV e a biblioteca \"face_recognition\"."
       },
       "Detector RTSP": {
         "title": "Detector RTSP",
         "description": "Classificação e Detecção",
-        "explanation": "O Detector RTSP é um software que transforma qualquer câmera de segurança em uma central de alarme via protocolo RTSP; ele utiliza um classificador em tempo real que identifica imagens como \"Incêndio\", \"Com pessoa\" ou \"Sem pessoa\"; se o classificador determinar que algum frame possui uma pessoa, um segundo modelo, desta vez, um detector, é chamado para confirmar a presença da pessoa; se a presença for confirmada, um terceiro detector é acionado para identificar se essa pessoa está portando uma arma de fogo ou uma faca; além disso, o software conta com um sistema de detecção e classificação de incêndios; caso algum evento seja detectado, uma mensagem é enviada automaticamente para o WhatsApp do usuário com a imagem exata do frame onde o evento ocorreu; todos os modelos foram treinados por mim, e toda a interface e o backend foram desenvolvidos com HTML, CSS, JavaScript, Electron e Python."
+        "explanation": "O Detector RTSP é um software que transforma qualquer câmera de segurança em uma central de alarme por meio do protocolo RTSP. Ele utiliza um classificador em tempo real que identifica imagens como \"Incêndio\", \"Com pessoa\" ou \"Sem pessoa\". Caso o classificador identifique a presença de uma pessoa em algum frame, um segundo modelo — desta vez um detector — é acionado para confirmar essa presença. Se confirmada, um terceiro detector entra em ação para identificar se a pessoa está portando uma arma de fogo ou uma faca. Além disso, o sistema conta com detecção e classificação de incêndios. Quando um evento é detectado, uma mensagem é enviada automaticamente ao WhatsApp do usuário contendo a imagem exata do frame do evento. Todos os modelos foram treinados por mim, e toda a interface e o backend foram desenvolvidos utilizando HTML, CSS, JavaScript, Electron e Python."
       },
       "Paint visual": {
         "title": "Paint visual",
         "description": "I.A. & Design",
-        "explanation": "Este projeto nada mais é que uma versão simulada e reduzida do software Paint, mas controlado pelas mãos. O software detecta os sinais feitos com a mão e permite desenhar em verde, azul e vermelho e, além disso, permite apagar o que já foi desenhado! Se você levantar o dedo indicador com o dedo médio, o software entenderá que você está selecionando uma das três cores possíveis, portanto, está em modo de seleção e, se você levantar somente o dedo indicador, o software entenderá que você está desenhando na tela. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe."
+        "explanation": "Este projeto é uma versão simulada e simplificada do software Paint, controlada por gestos das mãos. O sistema detecta sinais feitos com a mão e permite desenhar nas cores verde, azul e vermelho, além de apagar desenhos já feitos. Ao levantar o dedo indicador junto com o dedo médio, o software entra em modo de seleção de cores. Ao levantar apenas o dedo indicador, o sistema entende que o usuário está desenhando na tela. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe."
       },
       "Move Vision": {
         "title": "Move Vision",
         "description": "I.A. & Entretenimento",
-        "explanation": "Move Vision é um jogo de movimento corporal. Basicamente, você acessa o jogo se registrando com um usuário e senha e, após clicar no botão \"Play\", o jogo abre sua câmera e divide ela em uma matriz 3x3 onde cada célula representa uma posição possível. Após isso, é exibida uma imagem e dois pontos representando a posição que você deve ficar e o jogador deve, em menos de um segundo, se adequar a posição exibida na imagem. As imagens são trocadas de segundo em segundo e, enquanto o jogador conseguir se adequar à sequência de movimentos e posições, ele ganha ponto, mas, se errar uma posição, o jogador perde."
+        "explanation": "Move Vision é um jogo de movimento corporal. O jogador acessa o jogo realizando um cadastro com usuário e senha e, após clicar em \"Play\", a câmera é ativada e dividida em uma matriz 3x3, onde cada célula representa uma posição possível. Em seguida, uma imagem e dois pontos são exibidos indicando a posição que o jogador deve ocupar. O jogador deve se ajustar à posição em menos de um segundo. As imagens mudam continuamente e, enquanto o jogador conseguir acompanhar corretamente a sequência de movimentos, ele acumula pontos. Ao errar uma posição, o jogador perde."
       },
       "CEPEG": {
         "title": "CEPEG",
         "description": "I.A. & Eletrônica",
-        "explanation": "O CEPEG foi um projeto desenvolvido tentando ajudar qualquer tipo de empresa que utiliza EPIs no seu ambiente de trabalho. O projeto é dividido em três etapas: <br/>1ª Etapa - Teste cognitivo;<br/>2ª Etapa - Reconhecimento do funcionário;<br/>3ª Etapa - Reconhecimento dos EPIs.<br/>Na 1ª etapa, o funcionário passa por um teste cognitivo, desenvolvido em Python(Pygame), que irá testar a cognição do funcionário, para averiguar se ele está apto ou não para executar o trabalho de risco.<br/>Na 2ª etapa, quando o funcionário vai bater o ponto, ele escolhe uma das 3 formas de reconhecimento: Reconhecimento facial, biometria ou leitor RFID. O reconhecimento do funcionário deve ser feito para averiguar se o funcionário trabalha ou não nesse setor e para registrar a sua entrada.<br/>Na 3ª e última etapa, o funcionário deve se posicionar de frente com uma câmera que estará conectada ao computador e que, através de Inteligência Artificial(Machine Learning), vai averiguar se o funcionário está ou não utilizando os EPIs. O tempo de verificação demora em torno de 8 segundos.<br/>Se o funcionário estiver utilizando os EPIs de forma correta, uma catraca libera o acesso do funcionário ao setor de trabalho, mas, se o funcionário não estiver utilizando, uma mensagem é enviada automaticamente para o WhatsApp do seu chefe, avisando sobre o mau uso das EPIs.<br/>O projeto também conta com um site e uma GUI(Interface Gráfica) para fazer cadastros de funcionários e de setores da empresa. Além disso, a GUI e o Site também exibe gráficos, tabelas, relatórios e imagens que confirmam que o funcionário estava ou não utilizando as EPIs. Todas as informações do site são guardadas no Firebase e as informações da GUI no MySQL.<br/>O CEPEG foi o melhor projeto na categoria Utilidades da Feira de projetos de 2022 da Escola Técnica de Eletrônica Francisco Moreira da Costa e ganhou uma premiação da Prefeitura Municipal.<br/>Tecnologias utilizadas na criação do projeto: Eletrônica, HTML, CSS, JavaScript, Bootstrap, Python, NodeJS, SQL, C++, OpenCV, Machine Learning, Firebase e MySQL."
+        "explanation": "O CEPEG é um projeto desenvolvido para auxiliar empresas que utilizam Equipamentos de Proteção Individual (EPIs) em seus ambientes de trabalho. O sistema é dividido em três etapas: <br/>1ª Etapa – Teste cognitivo;<br/>2ª Etapa – Reconhecimento do funcionário;<br/>3ª Etapa – Reconhecimento dos EPIs.<br/>Na primeira etapa, o funcionário realiza um teste cognitivo desenvolvido em Python (Pygame), com o objetivo de verificar se está apto a executar atividades de risco. Na segunda etapa, ao registrar o ponto, o funcionário escolhe uma entre três formas de identificação: reconhecimento facial, biometria ou RFID. Na terceira e última etapa, o funcionário se posiciona em frente a uma câmera conectada ao sistema, que utiliza Inteligência Artificial (Machine Learning) para verificar se os EPIs estão sendo utilizados corretamente. O tempo médio de verificação é de aproximadamente 8 segundos. Caso os EPIs estejam corretos, uma catraca libera o acesso ao setor. Caso contrário, uma mensagem é enviada automaticamente ao WhatsApp do supervisor. O projeto inclui um site e uma GUI para cadastro de funcionários e setores, além de gráficos, tabelas, relatórios e imagens. Os dados do site são armazenados no Firebase e os da GUI no MySQL. O CEPEG foi eleito o melhor projeto na categoria Utilidades da Feira de Projetos de 2022 da Escola Técnica de Eletrônica Francisco Moreira da Costa, recebendo também uma premiação da Prefeitura Municipal."
+      },
+      "Identificador de sinais": {
+        "title": "Identificador de sinais",
+        "description": "I.A. & Detecção",
+        "explanation": "Este projeto utiliza visão computacional para identificar sinais feitos com a mão, permitindo ao computador reconhecer os números de 1 a 5 quando gesticulados. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe."
+      },
+      "Face car": {
+        "title": "Face Car",
+        "description": "I.A. & Detecção",
+        "explanation": "Face Car é um projeto desenvolvido pelo time TN1101 para a feira de projetos da Escola Técnica de Eletrônica Francisco Moreira da Costa. O sistema utiliza uma câmera instalada dentro do veículo que, por meio do método HOG, reconhece o rosto do proprietário e detecta rostos desconhecidos. Caso um rosto não autorizado permaneça no interior do veículo por mais de 10 segundos, o sistema identifica uma tentativa de furto e envia um sinal binário via USB para um Arduino, que aciona um relé para bloquear o veículo."
+      },
+      "Mouse visual": {
+        "title": "Mouse visual",
+        "description": "I.A. & Detecção",
+        "explanation": "Este projeto utiliza visão computacional para identificar gestos com a mão e, a partir deles, controlar o cursor do mouse e realizar cliques. Ao levantar apenas o dedo indicador, o cursor é movimentado. Ao levantar o dedo indicador junto com o dedo médio, o sistema realiza o clique. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe."
+      },
+      "Controlador de volume visual": {
+        "title": "Controlador de volume visual",
+        "description": "I.A. & Detecção",
+        "explanation": "Este projeto utiliza visão computacional para controlar o volume do computador por meio de gestos com a mão. O sistema mede a distância entre o dedo indicador e o polegar para aumentar ou diminuir o volume. A aplicação foi desenvolvida utilizando Python, OpenCV e Mediapipe."
+      },
+      "Matriz de homografia": {
+        "title": "Matriz de homografia",
+        "description": "Predição & Coordenadas",
+        "explanation": "Este projeto consiste em uma interface gráfica desenvolvida em Python e Tkinter que facilita a utilização da matriz de homografia e do algoritmo RANSAC do OpenCV. A ferramenta permite estimar coordenadas geográficas, como latitude e longitude, a partir de entradas X e Y. A matriz de homografia é uma matriz 3x3 que, ao ser multiplicada por coordenadas em uma escala inicial, retorna uma estimativa em outra escala."
+      },
+      "AutoML": {
+        "title": "AutoML",
+        "description": "I.A. & Predição",
+        "explanation": "Este projeto consiste em uma interface gráfica que utiliza AutoML com PyCaret para treinar automaticamente o melhor modelo possível para a predição de posições espaciais, como latitude e longitude, a partir de variáveis de entrada como X e Y."
+      },
+      "SAHI & YoloV8": {
+        "title": "SAHI & YOLOv8",
+        "description": "I.A. & Detecção",
+        "explanation": "O projeto aborda o desafio do reconhecimento de pequenos objetos em aplicações de visão computacional. Utilizando o framework SAHI (Slicing Aided Hyper Inference), imagens grandes são divididas em partes menores, permitindo uma detecção mais precisa quando combinada com o YOLOv8."
+      },
+      "Interface YoloV8": {
+        "title": "Interface YOLOv8",
+        "description": "I.A. & Detecção",
+        "explanation": "Este projeto consiste em uma interface gráfica que simplifica a utilização do YOLOv8, permitindo selecionar facilmente os objetos que devem ou não ser detectados por meio de checkboxes, sem a necessidade de lidar diretamente com configurações complexas em código."
+      },
+      "Reconhecimento facial": {
+        "title": "Reconhecimento facial",
+        "description": "I.A. & Reconhecimento",
+        "explanation": "Interface gráfica que permite reconhecimento facial por imagens e webcam, além do cadastro de novos rostos e treinamento da inteligência artificial. Desenvolvido com Python, OpenCV, Haarcascade e Tkinter."
+      },
+      "IA Personal trainer": {
+        "title": "I.A. Personal Trainer",
+        "description": "I.A. & Detecção",
+        "explanation": "Este projeto atua como um personal trainer automático. Utilizando inteligência artificial, o sistema calcula o ângulo do braço durante a execução do exercício de rosca bíceps e determina se o movimento está correto, além de contabilizar as repetições."
+      },
+      "Velocímetro": {
+        "title": "Velocímetro",
+        "description": "I.A. & Detecção",
+        "explanation": "Este projeto utiliza uma câmera para monitorar a posição e a velocidade de veículos em rodovias, aplicando o algoritmo de matriz de homografia para estimar a velocidade dos automóveis."
       }
     },
 

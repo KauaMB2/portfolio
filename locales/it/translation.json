@@ -172,7 +172,7 @@
         "description": "I.A. & Riconoscimento",
         "explanation": "Questo progetto è un'interfaccia grafica sviluppata che permette di effettuare il riconoscimento facciale in foto e tramite webcam oltre alla registrazione di nuovi volti e addestramento dell'intelligenza artificiale per l'identificazione di nuovi volti. L'applicazione è stata sviluppata utilizzando Python, OpenCV, Haarcascade e Tkinter."
       },
-      "I.A. Personal trainer": {
+      "IA Personal trainer": {
         "title": "I.A. Personal trainer",
         "description": "I.A. & Rilevamento",
         "explanation": "Questo progetto è un personal trainer automatico. Utilizzando l'intelligenza artificiale, è possibile calcolare l'angolazione creata dal braccio durante l'esecuzione del curl bicipiti con manubrio e, utilizzando questa angolazione, è possibile sapere se l'utente sta facendo l'esercizio correttamente e quante volte l'ha eseguito. L'applicazione è stata sviluppata utilizzando Python, OpenCV e Mediapipe."
